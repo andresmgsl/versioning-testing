@@ -16,3 +16,7 @@ export function libraryTwo(): libraryTwo {
 export function helloWorld(): string {
   return 'Hello World';
 }
+
+export function helloWorld2(): string {
+  return 'Hello World 2';
+}

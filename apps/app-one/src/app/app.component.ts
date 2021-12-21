@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { libraryTwo } from '@testing-versioning/library-two';
 
 @Component({
   selector: 'testing-versioning-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app-one';
+
+  bodyFromLibrary = libraryTwo().sayHello();
 }

@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@testing-versioning/library-four-buildable": [
+        "libs/library-four-buildable/src/index.ts"
+      ],
+      "@testing-versioning/library-one": ["libs/library-one/src/index.ts"],
+      "@testing-versioning/library-three": ["libs/library-three/src/index.ts"],
+      "@testing-versioning/library-two": ["libs/library-two/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

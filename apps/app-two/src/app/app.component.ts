@@ -16,6 +16,6 @@ import { libraryOne } from '@testing-versioning/library-one';
   styles: [],
 })
 export class AppComponent {
-  title = 'This is the App two';
+  title = 'app-two';
   bodyFromLib = libraryOne().sayHello();
 }

@@ -455,6 +455,9 @@
             "access": "public",
             "buildTarget": "production"
           }
+        },
+        "version": {
+          "builder": "@jscutlery/semver:version"
         }
       },
       "tags": []

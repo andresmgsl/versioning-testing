@@ -4,7 +4,7 @@ interface libraryOne {
 }
 
 export function libraryOne(): libraryOne {
-  const sayHello = () => 'Hello from Library One.';
+  const sayHello = () => 'Hello from LibraryOne.';
   const testMessage = () => 'library-one';
 
   return {

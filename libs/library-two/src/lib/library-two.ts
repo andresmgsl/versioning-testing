@@ -1,15 +1,18 @@
 interface libraryTwo {
   sayHello: () => string;
   testMessage: () => string;
+  missingText: string;
 }
 
 export function libraryTwo(): libraryTwo {
-  const sayHello = () => 'Hello from Library Two.';
+  const sayHello = () => 'Hello from LibraryTwo.';
   const testMessage = () => 'library-two';
+  const missingText = 'Missing Textr';
 
   return {
     sayHello,
     testMessage,
+    missingText,
   };
 }
 

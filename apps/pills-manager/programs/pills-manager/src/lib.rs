@@ -10,5 +10,6 @@ pub mod pills_manager {
     }
 }
 
+// this is the minor change
 #[derive(Accounts)]
 pub struct Initialize {}

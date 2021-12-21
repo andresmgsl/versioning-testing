@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@andresmgsl_heavyduty/testing-version-lib": [
+        "libs/pusheable-library/src/index.ts"
+      ],
       "@testing-versioning/library-four-buildable": [
         "libs/library-four-buildable/src/index.ts"
       ],

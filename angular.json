@@ -292,6 +292,12 @@
         },
         "version": {
           "builder": "@jscutlery/semver:version"
+        },
+        "deploy": {
+          "builder": "ngx-deploy-npm:deploy",
+          "options": {
+            "access": "public"
+          }
         }
       },
       "tags": []
@@ -403,6 +409,55 @@
           "builder": "@jscutlery/semver:version"
         }
       }
+    },
+    "pusheable-library": {
+      "projectType": "library",
+      "root": "libs/pusheable-library",
+      "sourceRoot": "libs/pusheable-library/src",
+      "prefix": "testing",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "outputs": ["dist/libs/pusheable-library"],
+          "options": {
+            "project": "libs/pusheable-library/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/pusheable-library/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "libs/pusheable-library/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/pusheable-library"],
+          "options": {
+            "jestConfig": "libs/pusheable-library/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/pusheable-library/src/**/*.ts",
+              "libs/pusheable-library/src/**/*.html"
+            ]
+          }
+        },
+        "deploy": {
+          "builder": "ngx-deploy-npm:deploy",
+          "options": {
+            "access": "public",
+            "buildTarget": "production"
+          }
+        }
+      },
+      "tags": []
     }
   }
 }

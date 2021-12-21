@@ -2,6 +2,10 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.1](https://github.com/andresmgsl/versioning-testing/compare/app-one-0.1.0...app-one-0.1.1) (2021-12-21)
+
+
+
 # 0.1.0 (2021-12-21)
 
 

@@ -12,3 +12,7 @@ export function libraryTwo(): libraryTwo {
     testMessage,
   };
 }
+
+export function helloWorld(): string {
+  return 'Hello World';
+}

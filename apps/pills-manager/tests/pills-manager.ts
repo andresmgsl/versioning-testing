@@ -10,4 +10,8 @@ describe('pills_manager', () => {
     const tx = await program.rpc.initialize();
     console.log('Your transaction signature', tx);
   });
+
+  it('Should do nothing', async () => {
+    console.log('This is just a dummy test');
+  });
 });

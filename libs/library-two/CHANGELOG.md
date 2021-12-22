@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.2.1](https://github.com/andresmgsl/versioning-testing/compare/library-two-0.2.0...library-two-0.2.1) (2021-12-22)
+
+
+### Bug Fixes
+
+* **library-two:** hello world 2 function fixed. v3 added ([55bfe5e](https://github.com/andresmgsl/versioning-testing/commit/55bfe5e762de3c9eeb3b05ed5337d171f2457863))
+
+
+
 # [0.2.0](https://github.com/andresmgsl/versioning-testing/compare/library-two-0.1.0...library-two-0.2.0) (2021-12-21)
 
 

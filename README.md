@@ -1,3 +1,3 @@
 # Testing Versioning
 
-New version. v1.0.0
+New version. v2.0.0

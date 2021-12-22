@@ -18,4 +18,5 @@ import { libraryOne } from '@testing-versioning/library-one';
 export class AppComponent {
   title = 'app-two';
   bodyFromLib = libraryOne().sayHello();
+  breakingChange = libraryOne().breakingChanges();
 }

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { libraryOne } from '@testing-versioning/library-one';
 import { libraryTwo } from '@testing-versioning/library-two';
 
 @Component({
@@ -10,4 +11,5 @@ export class AppComponent {
   title = 'app-one';
 
   bodyFromLibrary = libraryTwo().sayHello();
+  breakingChange = libraryOne().breakingChanges();
 }

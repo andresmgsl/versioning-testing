@@ -2,6 +2,10 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.2](https://github.com/andresmgsl/versioning-testing/compare/pills-manager-0.1.1...pills-manager-0.1.2) (2021-12-22)
+
+
+
 ## [0.1.1](https://github.com/andresmgsl/versioning-testing/compare/pills-manager-0.1.0...pills-manager-0.1.1) (2021-12-21)
 
 

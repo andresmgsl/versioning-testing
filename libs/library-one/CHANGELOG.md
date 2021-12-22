@@ -2,6 +2,34 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# [1.0.0](https://github.com/andresmgsl/versioning-testing/compare/library-one-0.1.0...library-one-1.0.0) (2021-12-22)
+
+
+### Features
+
+* **library-one:** added new breaking change function ([5fa056a](https://github.com/andresmgsl/versioning-testing/commit/5fa056a756408f634438a1fe6ac442e709e85775))
+
+
+### BREAKING CHANGES
+
+* **library-one:** - Now the function need to be call
+
+
+
+# [1.0.0](https://github.com/andresmgsl/versioning-testing/compare/library-one-0.1.0...library-one-1.0.0) (2021-12-22)
+
+
+### Features
+
+* **library-one:** added new breaking change function ([5fa056a](https://github.com/andresmgsl/versioning-testing/commit/5fa056a756408f634438a1fe6ac442e709e85775))
+
+
+### BREAKING CHANGES
+
+* **library-one:** - Now the function need to be call
+
+
+
 # 0.1.0 (2021-12-21)
 
 

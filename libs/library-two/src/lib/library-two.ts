@@ -20,6 +20,6 @@ export function helloWorld(): string {
   return 'Hello World';
 }
 
-export function helloWorld2(): string {
-  return 'Hello World 2';
+export function helloWorld3(): string {
+  return 'Hello world 3 - fixing error';
 }

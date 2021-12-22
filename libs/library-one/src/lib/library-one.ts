@@ -2,6 +2,7 @@ interface libraryOne {
   sayHello: () => string;
   testMessage: () => string;
   testMessageInternal: string;
+  breakingChanges: () => string;
 }
 
 export function libraryOne(): libraryOne {
@@ -13,9 +14,14 @@ export function libraryOne(): libraryOne {
     sayHello,
     testMessage,
     testMessageInternal,
+    breakingChanges,
   };
 }
 
 export function helloWorld(): string {
   return 'hello world';
+}
+
+export function breakingChanges(): string {
+  return 'this is a breaking change';
 }
